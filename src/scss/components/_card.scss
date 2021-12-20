@@ -1,0 +1,19 @@
+@use "../abstracts/" as a;
+
+.card {
+    background-color: a.clr(dark);
+    color: a.clr(light);
+    border-left: 4px solid a.clr(accent);
+    margin-bottom: a.$gutter-size;
+    padding: a.$gutter-size;
+    &-title {
+        margin: 0;
+    }
+    &-image {
+        $negative-margin: a.$gutter-size * 2;
+        width: calc(100% + #{$negative-margin});
+        margin: 0 -#{a.$gutter-size};
+        margin-top: -#{a.$gutter-size};
+        margin-bottom: 1rem;
+    }
+}

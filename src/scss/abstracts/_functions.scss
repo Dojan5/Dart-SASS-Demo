@@ -1,0 +1,6 @@
+@use './variables' as v;
+
+@function clr($colour: primary, $shade: base) {
+    $colourmap: map-get(v.$colours, $colour);
+    @return map-get($colourmap, $shade);
+}

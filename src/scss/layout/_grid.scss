@@ -1,0 +1,7 @@
+@use "../abstracts/" as a;
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: a.$gutter-size;
+}

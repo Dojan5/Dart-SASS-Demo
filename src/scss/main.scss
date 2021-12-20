@@ -1,0 +1,16 @@
+@use "./abstracts/" as a;
+
+//Base
+html {
+    font-size: a.$base-unit-size;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: a.clr(light, light);
+}
+
+@import "./layout/container";
+@import "./layout/grid";
+//Component/etc imports
+@import "./components/card";

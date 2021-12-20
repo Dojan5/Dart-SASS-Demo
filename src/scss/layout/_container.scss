@@ -1,0 +1,7 @@
+@use '../abstracts/' as a;
+
+.container {
+    margin: 0 auto;
+    max-width: 84rem;
+    padding-top: a.$gutter-size;
+}

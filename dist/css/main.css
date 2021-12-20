@@ -1,0 +1,38 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #faf8f8;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 84rem;
+  padding-top: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
+.card {
+  background-color: #02040f;
+  color: #e5dada;
+  border-left: 4px solid #e59500;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.card-title {
+  margin: 0;
+}
+.card-image {
+  width: calc(100% + 2rem);
+  margin: 0 -1rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=main.css.map */

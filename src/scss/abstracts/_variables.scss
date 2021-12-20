@@ -1,0 +1,39 @@
+//Units
+
+$base-unit-size: 16px;
+$gutter-size: 1rem;
+
+//Colours
+$primary: #002642;
+$secondary: #840032;
+$accent: #e59500;
+$light: #e5dada;
+$dark: #02040f;
+
+$colours: (
+    primary: (
+        base: $primary,
+        light: lighten($primary, 10%),
+        dark: darken($primary, 10%)
+    ),
+    secondary: (
+        base: $secondary,
+        light: lighten($secondary, 10%),
+        dark: darken($secondary, 10%)
+    ),
+    accent: (
+        base: $accent,
+        light: lighten($accent, 10%),
+        dark: darken($accent, 10%)
+    ),
+    light: (
+        base: $light,
+        light: lighten($light, 10%),
+        dark: darken($light, 10%)
+    ),
+    dark: (
+        base: $dark,
+        light: lighten($dark, 10%),
+        dark: darken($dark, 10%)
+    ),
+)
