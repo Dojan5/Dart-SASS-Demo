@@ -1,0 +1,9 @@
+@use "./variables" as v;
+
+@mixin mq($breakpoint: "xs") {
+    $value: map-get(v.$breakpoints, $breakpoint);
+    @debug "breakpoint value: " $value;
+    @media only screen and (min-width: $value) {
+        @content
+    }
+}

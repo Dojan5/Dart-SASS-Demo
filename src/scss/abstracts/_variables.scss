@@ -36,4 +36,14 @@ $colours: (
         light: lighten($dark, 10%),
         dark: darken($dark, 10%)
     ),
-)
+);
+
+//Media query breakpoints. Values taken from twitter bootstrap 5.1.X
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;

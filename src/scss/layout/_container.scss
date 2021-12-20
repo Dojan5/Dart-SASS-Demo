@@ -1,7 +1,9 @@
-@use '../abstracts/' as a;
+@use "../abstracts/" as a;
 
 .container {
+  padding-top: a.$gutter-size;
+  @include a.mq(md) {
     margin: 0 auto;
     max-width: 84rem;
-    padding-top: a.$gutter-size;
+  }
 }
